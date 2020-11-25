@@ -19,6 +19,7 @@ type Log = {
 
 const LearningForm: FC = () => {
     const classes = useStyles();
+
     const [name, setName] = useState("");
     const [timer, setTimer] = useState(0);
     const [isStarted, setIsStarted] = useState(false);
