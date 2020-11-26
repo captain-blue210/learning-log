@@ -1,12 +1,13 @@
 users:
   documentId: userId
-  userLogs:
-    documentId: logId
 
-logs:
-  documentId: auto
   name: String
-  startDate: Date
-  endDate: Date
-  duration: Int
+  createdAt: Date
+
+  logs:
+    documentId: auto
+    name: String
+    startDate: Date
+    endDate: Date
+    duration: Int
 
