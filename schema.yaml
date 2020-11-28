@@ -6,8 +6,8 @@ users:
 
   logs:
     documentId: auto
+    id: logId
     name: String
     startDate: Date
     endDate: Date
-    duration: Int
 
